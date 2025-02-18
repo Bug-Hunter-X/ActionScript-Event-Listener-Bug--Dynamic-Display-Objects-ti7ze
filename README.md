@@ -1,0 +1,3 @@
+# ActionScript Event Listener Bug
+
+This repository demonstrates an uncommon bug in ActionScript 3 related to event listeners on dynamically created display objects.  When a display object is removed from the display list and later added back, its event listeners may stop functioning correctly. This is often due to issues with object references or garbage collection. The `bug.as` file showcases the problematic code.  The solution, found in `bugSolution.as`, addresses the issue by ensuring proper event listener management.
